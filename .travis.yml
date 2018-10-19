@@ -5,3 +5,10 @@ script:
 
 - npm test
 - node_modules/.bin/jshint src
+
+deploy:
+-provider
+-skip-cleanup
+-keep-history
+-local-dir
+-on 
