@@ -6,6 +6,8 @@ script:
 - npm test
 - node_modules/.bin/jshint src
 
+before deploy:
+- node_modules/.bin/jsdoc src
 deploy:
  provider: pages
  skip-cleanup:true
