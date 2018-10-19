@@ -13,4 +13,4 @@ deploy:
 -keep-history:true
 -local-dir
 -on: 
-branch masterzzz
+branch: master
