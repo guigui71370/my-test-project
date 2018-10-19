@@ -12,5 +12,5 @@ deploy:
 -github-token : $GITHUB_TOKEN
 -keep-history:true
 -local-dir
--on: 
+-on:  
 branch: master
