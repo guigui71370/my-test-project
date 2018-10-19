@@ -7,10 +7,10 @@ script:
 - node_modules/.bin/jshint src
 
 deploy:
--provider:pages
+-provider: pages
 -skip-cleanup:true
 -github-token : $GITHUB_TOKEN
 -keep-history:true
--local-dir
+-local-dir: "out"
 -on:  
-branch: master
+-branch: master
